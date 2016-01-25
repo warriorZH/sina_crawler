@@ -14,7 +14,7 @@
 
 from get_blogcont.analysisBlogPage import *
 usernamePoolDir = '/home/warrior/Coding/usernamePool.txt'
-userIDList = ['1497035431', '1929644930', '1991303247']
+userIDList = ['1929644930', '1497035431', '1991303247']
 analisysInstace = analisysBlogPage()
 analisysInstace.startBlogAnalysisWork(userIDList, usernamePoolDir)
 print analisysInstace.normalizeTimeFrom('今天 11:11')
